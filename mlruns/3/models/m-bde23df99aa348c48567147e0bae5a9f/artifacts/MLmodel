@@ -1,0 +1,23 @@
+artifact_path: file:G:/Python/real_ml/regress/xz/mlruns/3/models/m-bde23df99aa348c48567147e0bae5a9f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-bde23df99aa348c48567147e0bae5a9f
+model_size_bytes: 822
+model_uuid: m-bde23df99aa348c48567147e0bae5a9f
+prompts: null
+run_id: 572c4f074f3e48b2a389a8f2cc09f0ee
+utc_time_created: '2026-06-02 15:30:16.375200'
